@@ -517,8 +517,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
-  height: 3px;
   background: #50d8af;
   bottom: 0;
   left: 0;
@@ -614,7 +612,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon {
-  float: left;
+  float: center;
 }
 
 #services .box .icon i {
@@ -627,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);*/
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -875,7 +873,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 8px 26px;
   border-radius: 3px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 100px;
   border: 3px solid #fff;
   color: #fff;
 }

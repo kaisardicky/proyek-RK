@@ -88,6 +88,12 @@ ul li.checked::before {
   text-align: center;
 }
 
+.footer {
+  padding: 30px 40px 80px;
+  color: white;
+  text-align: center;
+}
+
 /* Clear floats after the header */
 .header:after {
   content: "";
@@ -120,35 +126,44 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+.nexBtn {
+  padding: 10px;
+  width: 10%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  margin-left: 1100px;
+}
+
+.nexBtn:hover {
+  background-color: #8fc82c;
+}
 </style>
 </head>
 <body>
 
+
+
 <div id="myDIV" class="header">
   <h2 style="margin:5px">Test-Case Driven </h2>
-  <h3 style="margin:5px">Product Manager </h3>
+  <h3 style="margin:5px">Allow lending extension </h3>
   <input type="text" id="myInput" placeholder="Req...">
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
 <ul id="myUL">
-  <li>Request material</li>
-  <li>Ask material availability</li>
-  <li>Check availability</li>
-  <li>Confirm material availability</li>
-  <li>Confirm material unavailable</li>
-  <li>Send material</li>
-  <li>Deny request</li>
-  <li>Confirm material arrival</li>
-  <li>Take material</li>
-  <li>Requested material pickup exceed time limit</li>
-  <li>Use material</li>
-  <li>Send back material</li>
-  <li>Return material</li>
-  <li>Ask lending extension availability</li>
-  <li>Confirm send back material arrival</li>
-  <li>Allow lending extension</li>
-  <li>Deny lending extension</li>
+  <li>memilih request perpanjang</li>
+  <li>memilih tombol perpanjang</li>
+  <li>memilih tombol setujui</li>
 </ul>
+<div class="footer">
+  <a href = "req18.html" span class="nexBtn">Next</span></a>
+</div>
 
 <script>
 // Create a "close" button and append it to each list item
@@ -206,6 +221,7 @@ function newElement() {
     }
   }
 }
+
 </script>
 
 </body>
